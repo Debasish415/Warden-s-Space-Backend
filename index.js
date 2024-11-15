@@ -8,8 +8,6 @@ const app = express();
 
 require('dotenv').config();
 
-
-
 // PostgreSQL pool setup
 const pool = new Pool({
   user: process.env.PSQL_USER,
